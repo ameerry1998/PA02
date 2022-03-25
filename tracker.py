@@ -78,9 +78,15 @@ def process_choice(choice):
         cat = {'name':name, 'desc':desc}
         category.update(rowid,cat)
     elif choice=='4':
-        transact = transactions.show_trans()
-        print(transact[0])
-        print_transactions(transact)
+        transacts = transactions.show_trans()
+        print(transacts[0])
+        print_transactions(transacts)
+        print('\n')
+        print("%-10s %-10s %-10s %-10s %-30s" % ('item #', 'amount', 'category', 'date', 'description'))
+        print('-' * 40)
+        for transtact in transacts:
+            values = tuple(transtact.values())
+            print("%-10s %-10s %-10s %-10s %-30s" % values)
     elif choice=='5':
         print("add transaction")
         itemNo = int(input("item Number: "))
