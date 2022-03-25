@@ -37,7 +37,7 @@ import sys
 
 #transactions = Transaction('tracker.db')
 category = Category('tracker.db')
-
+transactions = transactions('tracker.db')
 
 # here is the menu for the tracker app
 
@@ -78,6 +78,10 @@ def process_choice(choice):
         desc = input("new category description: ")
         cat = {'name':name, 'desc':desc}
         category.update(rowid,cat)
+    elif choice=='4':
+        transact = transactions.show_trans()
+        print(transact[0])
+        print_transactions(transact)
     else:
         print("choice",choice,"not yet implemented")
 
