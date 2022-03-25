@@ -21,3 +21,17 @@ class transactions:
         tuples = cur.fetchall()
         con.commit()
         con.close()
+
+    '''Adds transactions'''
+
+    def add(self, item):
+        con= sqlite3.connect(self.db)
+        cur = con.cursor()
+        cur.execute("INSERT INTO transactions VALUES(?,?,?,?,?)",(item['itemNo'],item['amount'] ,item['category_t'],item['date'],item['description']))
+        con.commit()
+        cur.execute("SELECT last_insert_rowid()")
+        last_rowid = cur.fetchone()
+        con.commit()
+        con.close()
+        return last_rowid[0]
+
