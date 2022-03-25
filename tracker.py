@@ -32,6 +32,7 @@ could be replaced with PostgreSQL or Pandas or straight python lists
 '''
 
 #from transactions import Transaction
+from transactions import  transactions
 from category import Category
 import sys
 
@@ -57,8 +58,6 @@ menu = '''
 '''
 
 
-
-
 def process_choice(choice):
 
     if choice=='0':
@@ -79,9 +78,24 @@ def process_choice(choice):
         cat = {'name':name, 'desc':desc}
         category.update(rowid,cat)
     elif choice=='4':
-        transact = transactions.show_trans()
-        print(transact[0])
-        print_transactions(transact)
+        transacts = transactions.show_trans()
+        print(transacts[0])
+        print_transactions(transacts)
+        print('\n')
+        print("%-10s %-10s %-10s %-10s %-30s" % ('item #', 'amount', 'category', 'date', 'description'))
+        print('-' * 40)
+        for transtact in transacts:
+            values = tuple(transtact.values())
+            print("%-10s %-10s %-10s %-10s %-30s" % values)
+    elif choice=='5':
+        print("add transaction")
+        itemNo = int(input("item Number: "))
+        amount = int(input("amount spent? "))
+        category_t = input("transaction category? ")
+        date = input("transaction date ? (MM/DD/YYYY) ")
+        description = input("description of transaction: ")
+        transaction = {'itemNo':itemNo, 'amount':amount, 'category_t':category_t, 'date':date, 'description':description}
+        transactions.add(transaction)
     else:
         print("choice",choice,"not yet implemented")
 
