@@ -1,0 +1,1968 @@
+Script started on Fri Mar 25 02:39:01 2022
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hlls[?2004l
+README.md		pytest.ini		tracker.py
+__pycache__		test_category.py	transactions.py
+category.py		tracker.db		typescript
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hppush add .m [?2004l
+zsh: command not found: push
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hggit  p commit -m ' "Added summaz rize by categ [Koory"[?2004l
+[main 16014db] Added summarize by category
+ 2 files changed, 21 insertions(+), 2 deletions(-)
+ create mode 100644 typescript
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpphp python tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 0
+bye
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 0
+Thank you for using our application. Good bye!
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hggit ol  log[?2004l
+[?1h=[33mcommit 16014db036aeece0805e5967f02a716e1378a9ac[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: Aichuk Tripura <living.being123@gmail.com>[m
+Date:   Fri Mar 25 02:42:46 2022 -0400[m
+[m
+    Added summarize by category[m
+[m
+[33mcommit c6807e5a40b43d39051deda501fd673e7f00c6df[m[33m ([m[1;31morigin/main[m[33m)[m[m
+Author: Aichuk Tripura <living.being123@gmail.com>[m
+Date:   Fri Mar 25 02:34:45 2022 -0400[m
+[m
+    Added summarize by date, month, and year[m
+[m
+[33mcommit 568faf94a50f5a03e74f36abb3a39e9528190b4f[m[m
+Author: Aichuk Tripura <living.being123@gmail.com>[m
+Date:   Fri Mar 25 01:50:42 2022 -0400[m
+[m
+    Added update and delete to transaction table[m
+[m
+[33mcommit 58a9293513ad979698b1ea52549553e96efd67fc[m[m
+Merge: dfbbd16 d3877bb[m
+Author: Aichuk Tripura <living.being123@gmail.com>[m
+:[K[KDate:   Fri Mar 25 01:32:43 2022 -0400[m
+:[K[K[m
+:[K[K    So i can push[m
+:[K[K    [m
+:[K[K    So I can push[m
+:[K[K[m
+:[K[K[33mcommit dfbbd1661783c42ad36ff1498f8bb7317c9b5380[m[m
+:[K[KAuthor: Aichuk Tripura <living.being123@gmail.com>[m
+:[K[KDate:   Fri Mar 25 01:32:30 2022 -0400[m
+:[K[K[m
+:[K[K    More changes[m
+:[K[K[m
+:[K[K[33mcommit d3877bb444f988271ff782dd3fd5a20c7f33f793[m[m
+:[K[KAuthor: Ameer Rayan <ameer.rayan@Gmail.com>[m
+:[K[KDate:   Fri Mar 25 01:04:29 2022 -0400[m
+:[K[K[m
+:[K[K    working on showing[m
+:[K[K[m
+:[K[K[33mcommit b82e4b4a97f614178e74dabaa814b45251fbf776[m[m
+:[K[KAuthor: Ameer Rayan <ameer.rayan@Gmail.com>[m
+:[K[KDate:   Fri Mar 25 00:46:44 2022 -0400[m
+:[K[K[m
+:[K[K    Adding function[m
+:[K[K[m
+:[K[K[33mcommit e8adfd724756a3871d8b445c7abea6056370287d[m[m
+:[K[KAuthor: Aichuk Tripura <living.being123@gmail.com>[m
+:[K[KDate:   Thu Mar 24 23:07:02 2022 -0400[m
+:[K[K[m
+:[K[K    Modified transactions.py[m
+:[K[K[m
+:[K[K[33mcommit 1b33f5f03d1a9b4e0a0834710ccdf71bd4d0c436[m[m
+:[K[KAuthor: Ameer Rayan <ameer.rayan@Gmail.com>[m
+:[K[KDate:   Thu Mar 24 22:58:11 2022 -0400[m
+:[K[K[m
+:[K[K[?1l>[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hAAdA  ggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hggit commit -m "Added minor       transaction dict               to_tran- _dict for r [Keeturn transaction tuple and to_tran- _dict_list to return a list of transaction tu [Kpple dicito   tiro   o ionaries"[?2004l
+[main 982eade] Added to_tran_dict for return transaction tuple and to_tran_dict_list to return a list of transaction tuple dictionaries
+ 5 files changed, 159 insertions(+), 32 deletions(-)
+ create mode 100644 __pycache__/category.cpython-38.pyc
+ create mode 100644 __pycache__/transactions.cpython-38.pyc
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hggit push [?2004l
+Enumerating objects: 16, done.
+Counting objects:   6% (1/16)Counting objects:  12% (2/16)Counting objects:  18% (3/16)Counting objects:  25% (4/16)Counting objects:  31% (5/16)Counting objects:  37% (6/16)Counting objects:  43% (7/16)Counting objects:  50% (8/16)Counting objects:  56% (9/16)Counting objects:  62% (10/16)Counting objects:  68% (11/16)Counting objects:  75% (12/16)Counting objects:  81% (13/16)Counting objects:  87% (14/16)Counting objects:  93% (15/16)Counting objects: 100% (16/16)Counting objects: 100% (16/16), done.
+Delta compression using up to 4 threads
+Compressing objects:   8% (1/12)Compressing objects:  16% (2/12)Compressing objects:  25% (3/12)Compressing objects:  33% (4/12)Compressing objects:  41% (5/12)Compressing objects:  50% (6/12)Compressing objects:  58% (7/12)Compressing objects:  66% (8/12)Compressing objects:  75% (9/12)Compressing objects:  83% (10/12)Compressing objects:  91% (11/12)Compressing objects: 100% (12/12)Compressing objects: 100% (12/12), done.
+Writing objects:   8% (1/12)Writing objects:  16% (2/12)Writing objects:  25% (3/12)Writing objects:  33% (4/12)Writing objects:  41% (5/12)Writing objects:  50% (6/12)Writing objects:  58% (7/12)Writing objects:  66% (8/12)Writing objects:  75% (9/12)Writing objects:  83% (10/12)Writing objects:  91% (11/12)Writing objects: 100% (12/12)Writing objects: 100% (12/12), 5.77 KiB | 2.89 MiB/s, done.
+Total 12 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/6)[Kremote: Resolving deltas:  16% (1/6)[Kremote: Resolving deltas:  33% (2/6)[Kremote: Resolving deltas:  50% (3/6)[Kremote: Resolving deltas:  66% (4/6)[Kremote: Resolving deltas:  83% (5/6)[Kremote: Resolving deltas: 100% (6/6)[Kremote: Resolving deltas: 100% (6/6), completed with 3 local objects.[K
+To https://github.com/ameerry1998/PA02
+   c6807e5..982eade  main -> main
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hgit push commit -m "Added to_tran_dict for return transaction tuple and to_tran_dict_list to return a list of transaction tuple dictionaries"[K[A[A[28Cadd .[K[1B[K[1B[K[A[A[50Clog  python tracker.py[?2004l[1B
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 4
+Traceback (most recent call last):
+  File "tracker.py", line 150, in <module>
+    toplevel()
+  File "tracker.py", line 115, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 81, in process_choice
+    transacts = transactions.show_trans()
+AttributeError: 'transactions' object has no attribute 'show_trans'
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004h4 python tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 4
+Traceback (most recent call last):
+  File "tracker.py", line 150, in <module>
+    toplevel()
+  File "tracker.py", line 115, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 81, in process_choice
+    transacts = transactions.select_all()
+  File "/Users/aichuktripura/Coding/103-PA2/transactions.py", line 55, in select_all
+    return to_tran_dict_list[tuples]
+TypeError: 'function' object is not subscriptable
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 4
+{'itemNo': 1, 'amount': 100.0, 'category': 'car payment', 'date': '3/25/2022', 'description': 'car payment 11/64'}
+
+
+Traceback (most recent call last):
+  File "tracker.py", line 150, in <module>
+    toplevel()
+  File "tracker.py", line 115, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 83, in process_choice
+    print_transactions(transacts)
+  File "tracker.py", line 129, in print_transactions
+    print("%-10s %-10d %-10s %-10d %-30s" % (
+TypeError: %d format: a number is required, not str
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 4
+{'itemNo': 1, 'amount': 100.0, 'category': 'car payment', 'date': '3/25/2022', 'description': 'car payment 11/64'}
+
+
+Traceback (most recent call last):
+  File "tracker.py", line 144, in <module>
+    toplevel()
+  File "tracker.py", line 109, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 83, in process_choice
+    print_transactions(transacts)
+  File "tracker.py", line 123, in print_transactions
+    print("%-10s %-10d %-10s %-10d %-30s" % (
+TypeError: %d format: a number is required, not str
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 4
+{'itemNo': 1, 'amount': 100.0, 'category': 'car payment', 'date': '3/25/2022', 'description': 'car payment 11/64'}
+
+
+Traceback (most recent call last):
+  File "tracker.py", line 144, in <module>
+    toplevel()
+  File "tracker.py", line 109, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 83, in process_choice
+    print_transactions(transacts)
+  File "tracker.py", line 123, in print_transactions
+    print("%-10s %-10d %-10s %-10d %-30s" % (
+TypeError: %d format: a number is required, not str
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 4
+{'itemNo': 1, 'amount': 100.0, 'category': 'car payment', 'date': '3/25/2022', 'description': 'car payment 11/64'}
+
+
+Traceback (most recent call last):
+  File "tracker.py", line 144, in <module>
+    toplevel()
+  File "tracker.py", line 109, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 83, in process_choice
+    print_transactions(transacts)
+  File "tracker.py", line 123, in print_transactions
+    print("%-10s %-10s %-10d %-10d %-30d" % (
+TypeError: %d format: a number is required, not str
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 4
+{'itemNo': 1, 'amount': 100.0, 'category': 'car payment', 'date': '3/25/2022', 'description': 'car payment 11/64'}
+
+
+Traceback (most recent call last):
+  File "tracker.py", line 144, in <module>
+    toplevel()
+  File "tracker.py", line 109, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 83, in process_choice
+    print_transactions(transacts)
+  File "tracker.py", line 123, in print_transactions
+    print("%-10s %-10d %-10s %-10d %-30s" % (
+TypeError: %d format: a number is required, not str
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 4
+{'itemNo': 1, 'amount': 100.0, 'category': 'car payment', 'date': '3/25/2022', 'description': 'car payment 11/64'}
+
+
+itemNo     amount     category   date       description                   
+----------------------------------------
+Traceback (most recent call last):
+  File "tracker.py", line 144, in <module>
+    toplevel()
+  File "tracker.py", line 109, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 83, in process_choice
+    print_transactions(transacts)
+  File "tracker.py", line 128, in print_transactions
+    print("%-10s %-10d %-10s %-10d %-30s" % values)
+TypeError: %d format: a number is required, not str
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 4
+{'itemNo': 1, 'amount': 100.0, 'category': 'car payment', 'date': '3/25/2022', 'description': 'car payment 11/64'}
+
+
+itemNo     amount     category   date       description                   
+----------------------------------------
+1          100        car payment 3/25/2022  car payment 11/64             
+1          100        car payment 3/25/2022  car payment 12/64             
+1          1          a          2/2/2222   a                             
+1          1          a          2          a                             
+1          1                                                              
+> 
+choice  not yet implemented
+> 
+choice  not yet implemented
+> 4
+{'itemNo': 1, 'amount': 100.0, 'category': 'car payment', 'date': '3/25/2022', 'description': 'car payment 11/64'}
+
+
+itemNo     amount     category   date       description                   
+----------------------------------------
+1          100        car payment 3/25/2022  car payment 11/64             
+1          100        car payment 3/25/2022  car payment 12/64             
+1          1          a          2/2/2222   a                             
+1          1          a          2          a                             
+1          1                                                              
+> 0
+Thank you for using our application. Goodbye!
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 4
+{'itemNo': 1, 'amount': 100.0, 'category': 'car payment', 'date': '3/25/2022', 'description': 'car payment 11/64'}
+
+
+itemNo     amount     category   date       description                   
+--------------------------------------------------
+1          100        car payment 3/25/2022  car payment 11/64             
+1          100        car payment 3/25/2022  car payment 12/64             
+1          1          a          2/2/2222   a                             
+1          1          a          2          a                             
+1          1                                                              
+> 6
+deleting transaction
+itemNo: 1
+Traceback (most recent call last):
+  File "tracker.py", line 154, in <module>
+    toplevel()
+  File "tracker.py", line 119, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 103, in process_choice
+    transactions.delete(itemNo)
+  File "/Users/aichuktripura/Coding/103-PA2/transactions.py", line 74, in delete
+    con = sqlite3.connect(self.dbfile)
+AttributeError: 'transactions' object has no attribute 'dbfile'
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 6
+deleting transaction
+itemNo: 1
+Traceback (most recent call last):
+  File "tracker.py", line 154, in <module>
+    toplevel()
+  File "tracker.py", line 119, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 103, in process_choice
+    transactions.delete(itemNo)
+  File "/Users/aichuktripura/Coding/103-PA2/transactions.py", line 76, in delete
+    cur.execute('''DELETE FROM transactions
+sqlite3.OperationalError: no such column: itemNo
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 4
+{'itemNo': 1, 'amount': 100.0, 'category': 'car payment', 'date': '3/25/2022', 'description': 'car payment 11/64'}
+
+
+itemNo     amount     category   date       description                   
+--------------------------------------------------
+1          100        car payment 3/25/2022  car payment 11/64             
+1          100        car payment 3/25/2022  car payment 12/64             
+1          1          a          2/2/2222   a                             
+1          1          a          2          a                             
+1          1                                                              
+> 
+choice  not yet implemented
+> 6
+deleting transaction
+itemNo: 1
+Traceback (most recent call last):
+  File "tracker.py", line 154, in <module>
+    toplevel()
+  File "tracker.py", line 119, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 103, in process_choice
+    transactions.delete(itemNo)
+  File "/Users/aichuktripura/Coding/103-PA2/transactions.py", line 76, in delete
+    cur.execute('''DELETE FROM transactions
+sqlite3.OperationalError: no such column: itemNo
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+Traceback (most recent call last):
+  File "tracker.py", line 41, in <module>
+    transactions = transactions('tracker.db')
+  File "/Users/aichuktripura/Coding/103-PA2/transactions.py", line 25, in __init__
+    cur.execute('''DROP TABLE transactions
+sqlite3.OperationalError: near ")": syntax error
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+Traceback (most recent call last):
+  File "tracker.py", line 41, in <module>
+    transactions = transactions('tracker.db')
+  File "/Users/aichuktripura/Coding/103-PA2/transactions.py", line 25, in __init__
+    cur.execute('''DROP TABLE transactions
+sqlite3.OperationalError: near ")": syntax error
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 0 4
+{'itemNo': 1, 'amount': 100.0, 'category': 'car payment', 'date': '3/25/2022', 'description': 'car payment 11/64'}
+
+
+itemNo     amount     category   date       description                   
+--------------------------------------------------
+1          100        car payment 3/25/2022  car payment 11/64             
+1          100        car payment 3/25/2022  car payment 12/64             
+1          1          a          2/2/2222   a                             
+1          1          a          2          a                             
+1          1                                                              
+> 0
+Thank you for using our application. Goodbye!
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 4
+Traceback (most recent call last):
+  File "tracker.py", line 154, in <module>
+    toplevel()
+  File "tracker.py", line 119, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 85, in process_choice
+    transacts = transactions.select_all()
+  File "/Users/aichuktripura/Coding/103-PA2/transactions.py", line 45, in select_all
+    cur.execute("SELECT * from transactions")
+sqlite3.OperationalError: no such table: transactions
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 4
+Traceback (most recent call last):
+  File "tracker.py", line 154, in <module>
+    toplevel()
+  File "tracker.py", line 119, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 86, in process_choice
+    print(transacts[0])
+IndexError: list index out of range
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 3 2
+category name: Swimming        Dance
+category description: dancing time
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> add     5
+add transaction
+item Number: 0 ^CTraceback (most recent call last):
+  File "tracker.py", line 154, in <module>
+    toplevel()
+  File "tracker.py", line 119, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 91, in process_choice
+    itemNo = int(input("item Number: "))
+KeyboardInterrupt
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 1
+Traceback (most recent call last):
+  File "tracker.py", line 154, in <module>
+    toplevel()
+  File "tracker.py", line 119, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 67, in process_choice
+    cats = category.select_all()
+UnboundLocalError: local variable 'category' referenced before assignment
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 1
+Traceback (most recent call last):
+  File "tracker.py", line 154, in <module>
+    toplevel()
+  File "tracker.py", line 119, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 67, in process_choice
+    cats = category.select_all()
+UnboundLocalError: local variable 'category' referenced before assignment
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 1
+Traceback (most recent call last):
+  File "tracker.py", line 154, in <module>
+    toplevel()
+  File "tracker.py", line 119, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 67, in process_choice
+    cats = category.select_all()
+UnboundLocalError: local variable 'category' referenced before assignment
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 2
+category name: Wow
+category description: Swag
+Traceback (most recent call last):
+  File "tracker.py", line 154, in <module>
+    toplevel()
+  File "tracker.py", line 119, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 74, in process_choice
+    category.add(cat)
+UnboundLocalError: local variable 'category' referenced before assignment
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 1
+Traceback (most recent call last):
+  File "tracker.py", line 154, in <module>
+    toplevel()
+  File "tracker.py", line 119, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 67, in process_choice
+    cats = category.select_all()
+UnboundLocalError: local variable 'category' referenced before assignment
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 4
+Traceback (most recent call last):
+  File "tracker.py", line 154, in <module>
+    toplevel()
+  File "tracker.py", line 119, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 86, in process_choice
+    print(transacts[0])
+IndexError: list index out of range
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 3
+modifying category
+rowid: 1
+new category name: wow
+new category description: 2 dance
+Traceback (most recent call last):
+  File "tracker.py", line 154, in <module>
+    toplevel()
+  File "tracker.py", line 119, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 82, in process_choice
+    category.update(rowid, cat)
+UnboundLocalError: local variable 'category' referenced before assignment
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 11
+choice 11 not yet implemented
+> 1
+Traceback (most recent call last):
+  File "tracker.py", line 154, in <module>
+    toplevel()
+  File "tracker.py", line 119, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 67, in process_choice
+    cats = category.select_all()
+UnboundLocalError: local variable 'category' referenced before assignment
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> ^[[A^[[B        ^[[A    ^[[A^[[A^[[A            1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 0
+Thank you for using our application. Goodbye!
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 1
+Traceback (most recent call last):
+  File "tracker.py", line 154, in <module>
+    toplevel()
+  File "tracker.py", line 119, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 67, in process_choice
+    cats = category.select_all()
+UnboundLocalError: local variable 'category' referenced before assignment
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+  File "tracker.py", line 67
+    if choice == '0':
+    ^
+IndentationError: unexpected indent
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 
+choice  not yet implemented
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 
+choice  not yet implemented
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 11
+choice 11 not yet implemented
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 11
+choice 11 not yet implemented
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 11
+choice 11 not yet implemented
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 11
+choice 11 not yet implemented
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1 0
+Thank you for using our application. Goodbye!
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 1
+Traceback (most recent call last):
+  File "tracker.py", line 155, in <module>
+    toplevel()
+  File "tracker.py", line 120, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 68, in process_choice
+    cats = category.select_all()
+UnboundLocalError: local variable 'category' referenced before assignment
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 0
+Thank you for using our application. Goodbye!
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 1
+Traceback (most recent call last):
+  File "tracker.py", line 155, in <module>
+    toplevel()
+  File "tracker.py", line 120, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 68, in process_choice
+    cats = category.select_all()
+UnboundLocalError: local variable 'category' referenced before assignment
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 1
+Traceback (most recent call last):
+  File "tracker.py", line 157, in <module>
+    toplevel()
+  File "tracker.py", line 122, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 64, in process_choice
+    category = category
+UnboundLocalError: local variable 'category' referenced before assignment
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> ^[[A    0
+Thank you for using our application. Goodbye!
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 4
+Traceback (most recent call last):
+  File "tracker.py", line 158, in <module>
+    toplevel()
+  File "tracker.py", line 123, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 89, in process_choice
+    transacts = transactions.select_all()
+  File "/Users/aichuktripura/Coding/103-PA2/transactions.py", line 35, in select_all
+    cur.execute("SELECT * from transactions")
+sqlite3.OperationalError: no such table: transactions
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+> 2
+category name: a Ow
+category description: uwu
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+3   Ow         uwu                           
+> uU WU u  wu   5
+add transaction
+item number: 1
+amount spent: 2. 0.5
+Traceback (most recent call last):
+  File "tracker.py", line 158, in <module>
+    toplevel()
+  File "tracker.py", line 123, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 96, in process_choice
+    amount = int(input("amount spent: "))
+ValueError: invalid literal for int() with base 10: '20.5'
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 5
+add transaction
+item number: 1
+amount spent: 20.5
+transaction category: Idk
+transaction date (MM/DD/YYYY): 04/22/2022
+description of transaction: idk
+> 4
+{'itemNo': 1, 'amount': 1, 'category': 20.5, 'date': 'Idk', 'description': '04/22/2022'}
+
+
+itemNo     amount     category   date       description                   
+--------------------------------------------------
+1          1          20.5       Idk        04/22/2022                    
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+3   Ow         uwu                           
+> 2
+category name: 2
+category description: 2
+> 1
+id  name       description                   
+---------------------------------------------
+1   Category_1 great category                
+2   Dance      dancing time                  
+3   Ow         uwu                           
+4   2          2                             
+> 0
+Thank you for using our application. Goodbye!
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 4
+Traceback (most recent call last):
+  File "tracker.py", line 158, in <module>
+    toplevel()
+  File "tracker.py", line 123, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 89, in process_choice
+    transacts = transactions.select_all()
+  File "/Users/aichuktripura/Coding/103-PA2/transactions.py", line 45, in select_all
+    return to_tran_dict_list(tuples)
+  File "/Users/aichuktripura/Coding/103-PA2/transactions.py", line 17, in to_tran_dict_list
+    return [to_tran_dict(tran_tuple) for tran_tuple in tran_tuples]
+  File "/Users/aichuktripura/Coding/103-PA2/transactions.py", line 17, in <listcomp>
+    return [to_tran_dict(tran_tuple) for tran_tuple in tran_tuples]
+  File "/Users/aichuktripura/Coding/103-PA2/transactions.py", line 8, in to_tran_dict
+    tran = {rowid: tran_tuple[0], 'itemNo': tran_tuple[1], 'amount': tran_tuple[2],
+NameError: name 'rowid' is not defined
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 4
+{'rowid': 1, 'itemNo': 1, 'amount': 20.5, 'category': 'Idk', 'date': '04/22/2022', 'description': 'idk'}
+
+
+itemNo     amount     category   date       description                   
+--------------------------------------------------
+Traceback (most recent call last):
+  File "tracker.py", line 158, in <module>
+    toplevel()
+  File "tracker.py", line 123, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 91, in process_choice
+    print_transactions(transacts)
+  File "tracker.py", line 142, in print_transactions
+    print("%-10s %-10d %-10s %-10s %-30s" % values)
+TypeError: not all arguments converted during string formatting
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 4
+{'rowid': 1, 'itemNo': 1, 'amount': 20.5, 'category': 'Idk', 'date': '04/22/2022', 'description': 'idk'}
+
+
+Traceback (most recent call last):
+  File "tracker.py", line 158, in <module>
+    toplevel()
+  File "tracker.py", line 123, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 91, in process_choice
+    print_transactions(transacts)
+  File "tracker.py", line 137, in print_transactions
+    print("%-10d %-10s %-10s %-10s %-10s %-30s" % (
+TypeError: %d format: a number is required, not str
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 4
+{'rowid': 1, 'itemNo': 1, 'amount': 20.5, 'category': 'Idk', 'date': '04/22/2022', 'description': 'idk'}
+
+
+Traceback (most recent call last):
+  File "tracker.py", line 158, in <module>
+    toplevel()
+  File "tracker.py", line 123, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 91, in process_choice
+    print_transactions(transacts)
+  File "tracker.py", line 137, in print_transactions
+    print("%-10d %-10s %-10s %-10s %-10s %-30s" % (
+TypeError: %d format: a number is required, not str
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 4
+{'rowid': 1, 'itemNo': 1, 'amount': 20.5, 'category': 'Idk', 'date': '04/22/2022', 'description': 'idk'}
+
+
+Traceback (most recent call last):
+  File "tracker.py", line 158, in <module>
+    toplevel()
+  File "tracker.py", line 123, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 91, in process_choice
+    print_transactions(transacts)
+  File "tracker.py", line 137, in print_transactions
+    print("%-10d %-10s %-10s %-10s %-10s %-30s" % (
+TypeError: %d format: a number is required, not str
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 4
+{'rowid': 1, 'itemNo': 1, 'amount': 20.5, 'category': 'Idk', 'date': '04/22/2022', 'description': 'idk'}
+
+
+rowid      itemNo     amount     category   date       description                   
+-----------------------------------------------------------------
+1          1          20         Idk        04/22/2022 idk                           
+> 5
+add transaction
+item number: 2
+amount spent: 55
+transaction category: swa   Category 1
+transaction date (MM/DD/YYYY): 02/4/ 4  11/2011
+description of transaction: swag
+> 4
+{'rowid': 1, 'itemNo': 1, 'amount': 20.5, 'category': 'Idk', 'date': '04/22/2022', 'description': 'idk'}
+
+
+rowid      itemNo     amount     category   date       description                   
+-----------------------------------------------------------------
+1          1          20         Idk        04/22/2022 idk                           
+2          2          55         Category 1 02/11/2011 swag                          
+> 5
+add transaction
+item number: 1
+amount spent: 20
+transaction category: Idk   Fun   Bargain deal      n
+transaction date (MM/DD/YYYY): 04/22/2022
+description of transaction: idk
+> 5 6 0
+Thank you for using our application. Goodbye!
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 11  4
+{'rowid': 1, 'itemNo': 1, 'amount': 20.5, 'category': 'Idk', 'date': '04/22/2022', 'description': 'idk'}
+
+
+rowid      itemNo     amount     category   date       description                   
+-----------------------------------------------------------------
+1          1          20         Idk        04/22/2022 idk                           
+2          2          55         Category 1 02/11/2011 swag                          
+3          1          20         Bargain    04/22/2022 idk                           
+> 6
+deleting transaction
+rowid: 2
+Traceback (most recent call last):
+  File "tracker.py", line 158, in <module>
+    toplevel()
+  File "tracker.py", line 123, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 107, in process_choice
+    transactions.delete(rowid)
+  File "/Users/aichuktripura/Coding/103-PA2/transactions.py", line 66, in delete
+    cur.execute('''DELETE FROM transactions
+ValueError: parameters are of unsupported type
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 6
+deleting transaction
+rowid: 2
+Traceback (most recent call last):
+  File "tracker.py", line 158, in <module>
+    toplevel()
+  File "tracker.py", line 123, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 107, in process_choice
+    transactions.delete(rowid)
+  File "/Users/aichuktripura/Coding/103-PA2/transactions.py", line 66, in delete
+    cur.execute('''DELETE FROM transactions
+ValueError: parameters are of unsupported type
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 6
+deleting transaction
+rowid: 2
+Traceback (most recent call last):
+  File "tracker.py", line 158, in <module>
+    toplevel()
+  File "tracker.py", line 123, in toplevel
+    choice = process_choice(choice)
+  File "tracker.py", line 107, in process_choice
+    transactions.delete(rowid)
+  File "/Users/aichuktripura/Coding/103-PA2/transactions.py", line 66, in delete
+    cur.execute('''DELETE FROM transactions
+ValueError: parameters are of unsupported type
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 6
+deleting transaction
+rowid: 2
+> 4
+{'rowid': 1, 'itemNo': 1, 'amount': 20.5, 'category': 'Idk', 'date': '04/22/2022', 'description': 'idk'}
+
+
+rowid      itemNo     amount     category   date       description                   
+-----------------------------------------------------------------
+1          1          20         Idk        04/22/2022 idk                           
+3          1          20         Bargain    04/22/2022 idk                           
+> 0
+Thank you for using our application. Goodbye!
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hpython tracker.py[?2004l
+
+0. quit
+1. show categories
+2. add category
+3. modify category
+4. show transactions
+5. add transaction
+6. delete transaction
+7. summarize transactions by date
+8. summarize transactions by month
+9. summarize transactions by year
+10. summarize transactions by category
+11. print this menu
+
+> 4
+{'rowid': 1, 'itemNo': 1, 'amount': 20.5, 'category': 'Idk', 'date': '04/22/2022', 'description': 'idk'}
+
+
+rowid      itemNo     amount     category   date       description                   
+-------------------------------------------------------------------
+1          1          20         Idk        04/22/2022 idk                           
+3          1          20         Bargain    04/22/2022 idk                           
+> 0
+Thank you for using our application. Goodbye!
+[1m[7m%[27m[1m[0m                                                                                ]7;file://tests-mbp.dyn.brandeis.edu/Users/aichuktripura/Coding/103-PA2[0m[27m[24m[J(base) aichuktripura@tests-mbp 103-PA2 % [K[?2004hggit push -     commit 
